@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280930374050",
+    "project_id": "square-2-circle",
+    "storage_bucket": "square-2-circle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280930374050:android:27e6b5a68059fb93ffa2fb",
+        "android_client_info": {
+          "package_name": "com.juliensavary.square2circle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280930374050-tri8l2nv5t71ffdj7sqr24gdhvmkh2ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeLOXI1bEPK0Ujrz1BzMXVytEbilKkBAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280930374050-tri8l2nv5t71ffdj7sqr24gdhvmkh2ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
