@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
-import '../widgets/rounded_input_field.dart';
+
 import 'package:flutter/services.dart';
-import 'package:provider/provider.dart';
 import 'package:my_app/screens/widgets/rounded_input_field.dart';
+import 'package:provider/provider.dart';
+
 import '../../viewmodels/questionsviewmodel.dart';
+
 
 class Questions extends StatefulWidget {
   final String? questionText;
-  Questions({Key? key, this.questionText}) : super(key: key);
+  const Questions({Key? key, this.questionText}) : super(key: key);
 
   @override
   QuestionsState createState() => QuestionsState();
@@ -29,7 +31,7 @@ class QuestionsState extends State<Questions> {
           } else {
             sides--;
           }
-          questionsViewModel.savedResponses(sides, "user");
+
         },
       ),
     );
