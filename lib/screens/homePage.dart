@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:my_app/screens/widgets/counter.dart';
 import 'package:my_app/screens/widgets/questions.dart';
 
 class HomePage extends StatelessWidget {
@@ -8,7 +9,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
+        /*appBar: AppBar(
           backgroundColor: Colors.lightBlue[400],
           title: Center(
               child: Text(
@@ -18,13 +19,9 @@ class HomePage extends StatelessWidget {
                   color: Colors.black, fontSize: 20, letterSpacing: .5),
             ),
           )),
-        ),
-        body: Column(
-          children: const [
-            Questions(
-              questionText: "Did you complete task?",
-            )
-          ],
-        ));
+        ),*/
+        body: Container(
+      child: Counter(),
+    ));
   }
 }

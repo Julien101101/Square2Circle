@@ -57,27 +57,27 @@ class _RoundedInputFieldState extends State<RoundedInputField> {
       controller: widget.textEditingController,
       cursorColor: Colors.white,
       decoration: InputDecoration(
-        hintStyle: const TextStyle(
+        hintStyle: TextStyle(
           color: Colors.white,
         ),
         labelText: widget.hintText,
         suffixIcon: widget.obscureText
             ? IconButton(
-            icon: _obscureText
-                ? const Icon(
-              Icons.visibility,
-              color: Colors.white,
-            )
-                : const Icon(
-              Icons.visibility_off,
-              color: Colors.white,
-            ),
-            onPressed: () {
-              setState(() {
-                _obscureText = !_obscureText;
-              });
-            })
-            : const SizedBox(),
+                icon: _obscureText
+                    ? Icon(
+                        Icons.visibility,
+                        color: Colors.white,
+                      )
+                    : Icon(
+                        Icons.visibility_off,
+                        color: Colors.white,
+                      ),
+                onPressed: () {
+                  setState(() {
+                    _obscureText = !_obscureText;
+                  });
+                })
+            : SizedBox(),
         hintText: widget.hintText,
       ),
     );
