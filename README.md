@@ -2,10 +2,8 @@
 
 A New Flutter Project!
 
-This one implements a decrement / increment using the flutter polygon package.
+This one implements the flutter polygon package to create an iterable shape.
 
-Very excited to have coded this. It lacks some extra UI design like color but I am glad I have the basic function.
+Very excited to have coded this with my friend David. It lacks some UI design like color but I am glad I have the basic function.
 
 I hope to upgrade this soon.
-
-Thanks to David for help. I learn a lot from you.
