@@ -1,8 +1,9 @@
 # my_app
 
-A new Flutter project. This one implements a decrement / increment on the flutter polygon package.
+A new Flutter project. This one implements a decrement / increment using the flutter polygon package.
 
-Very excited to have created this. It lacks some extra UI design like color but I am glad I have the basic function.
+Very excited to have coded this. It lacks some extra UI design like color but I am glad I have the basic function.
 
 I hope to upgrade this soon.
 
+Thanks to David for help. I learn a lot from you.
